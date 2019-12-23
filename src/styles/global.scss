@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import "variables";
 
 body {
   font-family: "Work Sans","Helvetica Neue", Helvetica, sans-serif;
   overflow-x: hidden;
-  color: #000;
+  color:$extra-dark;
   font-size: 16px;
 }
 
@@ -49,7 +50,7 @@ h3 {
   font-size: 1.2rem;
   letter-spacing: -.5px;
   line-height: 1.1875;
-  color: #A0A0A0;
+  color:$extra-light;
   font-weight: normal;
 }
 
@@ -57,7 +58,7 @@ p {
   font-size: 1.2rem;
   letter-spacing: -.5px;
   line-height: 1.5;
-  color: #464646;
+  color: $dark;
 }
 
 // gatsby-image plugin container-----------------
@@ -85,7 +86,7 @@ p {
   h3 {
     letter-spacing: -.5px;
     line-height: 1.1875;
-    color: #A0A0A0;
+    color:$extra-light;
     font-weight: normal;
   }
 

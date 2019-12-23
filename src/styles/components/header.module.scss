@@ -1,3 +1,5 @@
+@import "../variables";
+
 .header {
   h1 {
     margin-bottom: 0; 
@@ -6,32 +8,42 @@
 
 .header__nav {
   padding: 1.5rem 1.25rem;
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid $extra-light;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  background: $light;
+  color: $extra-light;
   img {
     margin-bottom: 0;
+  }
+  .left__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    a{
+      padding:0 15px;
+      font-size: 18px;
+    }
   }
 }
 
 @media (min-width: 768px) {
   .header {
-    height: 100vh;
-    width: 30%;
+    height: 70px;
+    width: 100vw;
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 999;
   }
   
   .header__nav {
-    padding: 2rem;
+    padding: 0rem 2rem;
+    line-height: 70px;
     height: 100%;
-    border-right: 1px solid #EBEBEB;
-    border-bottom: none;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
     img {
       margin-bottom: 0;
     }

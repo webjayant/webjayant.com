@@ -16,21 +16,13 @@ export default function Header(props) {
         <Link to="/">
           <h1>{props.title}</h1>
         </Link>
-        <div>
-          <h1>
-            <Link
-              to={
-                props.page === 'info'
-                  ? "/"
-                  : "/info"
-              }
-              activeClassName={headerStyles.navItemActive}
-            >
-              {props.page === 'info'
-                ? "close"
-                : "info"}
-            </Link>
-          </h1>
+        <div className={headerStyles.left__links}>   
+          <Link to="/about">
+            About
+          </Link>
+          <Link to="/blog">
+            Blog
+          </Link>
         </div>
       </nav>
     </header>
