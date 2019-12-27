@@ -35,7 +35,7 @@ if (typeof window !== `undefined`) {
 		// CommonJS
 		// Loads whole gsap package onto global scope.
 		require('gsap');
-		factory(require('scrollmagic'), TweenMax, TimelineMax);
+		factory(ScrollMagic, TweenMax, TimelineMax);
 	} else {
 		// Browser globals
 		factory(ScrollMagic || (root.jQuery && root.jQuery.ScrollMagic), TweenMax || TweenLite,TimelineMax || TimelineLite);

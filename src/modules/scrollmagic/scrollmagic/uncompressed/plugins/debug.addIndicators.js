@@ -25,7 +25,7 @@ if (typeof window !== `undefined`) {
 (function (root, factory) {
 	if (typeof exports === 'object') {
 		// CommonJS
-		factory(require('scrollmagic'));
+		factory(ScrollMagic);
 	} else {
 		// no browser global export needed, just execute
 		factory(ScrollMagic || (root.jQuery && root.jQuery.ScrollMagic));
