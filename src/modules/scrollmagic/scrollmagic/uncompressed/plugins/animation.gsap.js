@@ -27,7 +27,9 @@
  * @mixin animation.GSAP
  */
 import { TimelineMax, TweenMax, TweenLite, TimelineLite} from "gsap/all";
-import ScrollMagic from "scrollmagic";
+if (typeof window !== `undefined`) {
+	var ScrollMagic  = require("scrollmagic");
+}  
 (function (root, factory) {
 	if (typeof exports === 'object') {
 		// CommonJS

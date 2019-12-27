@@ -18,7 +18,10 @@
  * To have access to this extension, please include `plugins/debug.addIndicators.js`.
  * @mixin debug.addIndicators
  */
-import ScrollMagic from "scrollmagic";
+if (typeof window !== `undefined`) {
+	var ScrollMagic  = require("scrollmagic");
+}
+
 (function (root, factory) {
 	if (typeof exports === 'object') {
 		// CommonJS
