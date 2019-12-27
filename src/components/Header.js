@@ -4,7 +4,7 @@ import {TimelineMax} from 'gsap'
 import headerStyles from "../styles/components/header.module.scss"
 if (typeof window !== `undefined`) {
   require("../modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap");
-  require ("../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators");
+  // require ("../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators");
   var ScrollMagic  = require("scrollmagic");
 }
 
@@ -17,17 +17,17 @@ export default function Header(props) {
     if(ScrollMagic){
       let tl = new TimelineMax()
       let headerShadow = tl.to(headerItem, 0.3,{
-        boxShadow:'0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3)',
-        background: 'red',
-        color:'#fff'
+        'box-shadow':'0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3)',
+        'background': 'red',
+        'color':'#fff'
       }).to(mainLogo, 0.3, {
-        color:'#fff',
+        'color':'#fff',
         delay: -0.3
       }).to(logoEnglish, 0.3, {
-        color:'#2d0f0f',
+        'color':'#2d0f0f',
         delay: -0.3
       }).to(leftLinks, 0.3,{
-        color:'#fff',
+        'color':'#fff',
         delay: -0.3
       })
       new ScrollMagic.Scene({
