@@ -11,7 +11,7 @@ if (typeof window !== `undefined`) {
 export default function Header(props) {
   let headerItem, mainLogo, logoEnglish, leftLinks = useRef(null)
   if(ScrollMagic){
-    let controller = new ScrollMagic.Controller();
+    var controller = new ScrollMagic.Controller();
   }
   useEffect(()=>{
     if(ScrollMagic){
