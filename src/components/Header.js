@@ -2,9 +2,9 @@ import React, {useRef, useEffect} from "react"
 import { Link } from "gatsby"
 import {TimelineMax} from 'gsap'
 import headerStyles from "../styles/components/header.module.scss"
-import "../modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
-import "../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
 if (typeof window !== `undefined`) {
+  require("../modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap");
+  require ("../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";)
   var ScrollMagic  = require("scrollmagic");
 }
 
