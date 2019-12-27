@@ -5,7 +5,7 @@ import headerStyles from "../styles/components/header.module.scss"
 import "../modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
 import "../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
 if (typeof window !== `undefined`) {
-  let ScrollMagic  = require("scrollmagic");
+  var ScrollMagic  = require("scrollmagic");
 }
 
 export default function Header(props) {
