@@ -1,6 +1,12 @@
 @import "../variables";
 
 .header {
+  height: 70px;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
   box-shadow: 0;
   background: #fff;
   h1 {
@@ -40,15 +46,6 @@
 }
 
 @media (min-width: 768px) {
-  .header {
-    height: 70px;
-    width: 100vw;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 999;
-  }
-  
   .header__nav {
     padding: 0rem 2rem;
     line-height: 70px;
