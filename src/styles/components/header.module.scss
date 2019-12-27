@@ -25,7 +25,9 @@
   }
 }
 .header__nav {
-  padding: 1.5rem 1.25rem;
+  padding: 0rem 2rem;
+  line-height: 70px;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -41,18 +43,6 @@
     a{
       padding:0 15px;
       font-size: 18px;
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .header__nav {
-    padding: 0rem 2rem;
-    line-height: 70px;
-    height: 100%;
-    flex-direction: row;
-    img {
-      margin-bottom: 0;
     }
   }
 }
