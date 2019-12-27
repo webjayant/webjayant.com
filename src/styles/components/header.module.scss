@@ -1,20 +1,30 @@
 @import "../variables";
 
 .header {
+  box-shadow: 0;
+  background: #fff;
   h1 {
     margin-bottom: 0; 
   }
 }
-
+.main_logo{
+  font-family: 'Modak', cursive;
+  color: red;
+  font-size: 45px;
+  letter-spacing: 2.3px;
+  .english{
+    color:#2d2b2b;
+    margin-right: 5px;
+    letter-spacing: unset;
+  }
+}
 .header__nav {
   padding: 1.5rem 1.25rem;
-  border-bottom: 1px solid $extra-light;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  background: $light;
-  color: $extra-light;
+  color: $light;
   img {
     margin-bottom: 0;
   }
