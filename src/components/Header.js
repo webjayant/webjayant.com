@@ -4,7 +4,7 @@ import {TimelineMax} from 'gsap'
 import headerStyles from "../styles/components/header.module.scss"
 if (typeof window !== `undefined`) {
   require("../modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap");
-  require ("../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";)
+  require ("../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators");
   var ScrollMagic  = require("scrollmagic");
 }
 
