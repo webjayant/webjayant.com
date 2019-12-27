@@ -26,8 +26,8 @@
  * @requires {@link http://greensock.com/gsap|GSAP ~1.14.x}
  * @mixin animation.GSAP
  */
-import { TimelineMax, TweenMax, TweenLite, TimelineLite} from "gsap/all";
 if (typeof window !== `undefined`) {
+	var { TimelineMax, TweenMax, TweenLite, TimelineLite } = require ("gsap/all");
 	var ScrollMagic  = require("scrollmagic");
 }  
 (function (root, factory) {
