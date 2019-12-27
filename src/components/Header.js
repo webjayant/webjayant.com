@@ -4,8 +4,9 @@ import {TimelineMax} from 'gsap'
 import headerStyles from "../styles/components/header.module.scss"
 import "../modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
 import "../modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
-import ScrollMagic from "scrollmagic";
-
+if (typeof window !== `undefined`) {
+  let ScrollMagic  = require("scrollmagic");
+}
 
 export default function Header(props) {
   let headerItem, mainLogo, logoEnglish, leftLinks = useRef(null)
