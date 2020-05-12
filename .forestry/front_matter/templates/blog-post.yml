@@ -36,6 +36,7 @@ fields:
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 pages:
+- content/posts/new-blog-with-iage-test.md
 - content/posts/new-post.md
 - content/posts/test-post-2.md
 - content/posts/test-post-3.md
