@@ -8,12 +8,12 @@ export default function BlogList() {
   const blogData = useBlogData()
   function renderBlogData() {
     return (
-      <div className='BlogArea'  style={{height:'200vh'}}>
+      <div className={`BlogArea ${blogListStyles.blogMain}`}  style={{height:'calc(100vh - 60px)'}}>
         {blogData
           .filter(blog => blog.node.frontmatter.title !== "")
           .map(blog => {
             return (
-              <Link to={`/blog/${blog.node.fields.slug}`} key={blog.node.id}>
+              <Link to={`/blog/${blog.node.fields.slug}`} key={blog.node.id} className={blogListStyles.link}>
                 <li className={blogListStyles.li} key={blog.node.fields.slug}>
                   <div className={blogListStyles.list__hero}>
                     <Img 

@@ -9,7 +9,7 @@ if (typeof window !== `undefined`) {
 }
 
 export default function Header(props) {
-  let headerItem, mainLogo, logoEnglish, leftLinks = useRef(null)
+  let headerItem, mainLogo, logoEnglish = useRef(null)
   if(ScrollMagic){
     var controller = new ScrollMagic.Controller();
   }
@@ -25,9 +25,6 @@ export default function Header(props) {
         delay: -0.3
       }).to(logoEnglish, 0.3, {
         'color':'#2d0f0f',
-        delay: -0.3
-      }).to(leftLinks, 0.3,{
-        'color':'#fff',
         delay: -0.3
       })
       new ScrollMagic.Scene({
@@ -50,14 +47,6 @@ export default function Header(props) {
         <Link to="/">
           <h1 ref = {el => (mainLogo = el)} className={headerStyles.main_logo}><span ref = {el => (logoEnglish = el)} className={headerStyles.english}>Web</span>जयन्त</h1>
         </Link>
-        <div ref={el => (leftLinks = el)} className={headerStyles.left__links}>   
-          <Link to="/about">
-            About
-          </Link>
-          <Link to="/blog">
-            Blog
-          </Link>
-        </div>
       </nav>
     </header>
   )
