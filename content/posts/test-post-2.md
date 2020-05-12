@@ -1,6 +1,6 @@
 ---
 date: 2020-05-12T09:43:46+05:30
-hero_image: "/static/uploads/992.png"
+hero_image: "/content/images/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
 title: Test Post 2
 author: Jayant Raj Singh
 

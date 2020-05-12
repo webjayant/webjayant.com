@@ -20,6 +20,7 @@
     overflow: hidden;
     background-color: #000;
     border-radius: 10px 10px 0 0;
+    height:180px;
     img {
       object-fit: cover;
       object-position: 50% 50%;
@@ -53,7 +54,7 @@
     opacity: inherit;
     display: flex;
     flex-direction: column;
-    height: 350px;
+    min-height: 350px;
     margin-bottom: 0;
     width: 250px;
     border-radius: 10px;
@@ -71,14 +72,18 @@
   }
   p {
     max-width: 900px;
+    font-size: 14px;
   }
   .link{
     width:250px;
-    height: 350px;
+    min-height: 350px;
+    margin: 20px;
   }
 }
 .blogMain{
   padding: 30px;
   padding-top: 90px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
