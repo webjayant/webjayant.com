@@ -8,7 +8,11 @@
     margin-bottom: 0.7rem;
   }
 }
-
+@media screen and (max-width:1040px){
+  .blog {
+    padding: 0 15px;
+  }
+}
 .blog__hero {
   min-height: 300px;
   height: 60vh;
@@ -68,7 +72,16 @@
     padding-left: 1.45rem;
   }
 }
-
+@media screen and (max-width:600px){
+  .blog__body {
+    padding: 70px 50px 0;
+  }
+}
+@media screen and (max-width:400px){
+  .blog__body {
+    padding: 70px 15px 0;
+  }
+}
 .blog__footer {
   display: flex;
   justify-content: end;

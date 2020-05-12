@@ -11,15 +11,6 @@
 
 .content {
   flex-grow: 1;
-}
-
-@media (min-width: 768px) {
-  .layout {
-    display: block;
-  }
-  .content {
-    flex-grow: none;
-    width: 100vw;
-    margin-top: 70px;
-  }
+  width: 100vw;
+  margin-top: 70px;
 }
