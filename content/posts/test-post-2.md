@@ -1,5 +1,5 @@
 ---
-date: 2020-05-12T09:43:46+05:30
+date: 2020-05-12T04:13:46.000+00:00
 hero_image: "/content/images/heather-shevlin-3B_NrzTjajc-unsplash.jpg"
 title: Test Post 2
 author: Jayant Raj Singh
@@ -18,3 +18,10 @@ Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 > The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+
+<p class="codepen" data-height="236" data-theme-id="dark" data-default-tab="css,result" data-user="bored_engineer" data-slug-hash="MGJVQP" data-preview="true" style="height: 236px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Pure CSS Spinners">
+  <span>See the Pen <a href="https://codepen.io/bored_engineer/pen/MGJVQP">
+  Pure CSS Spinners</a> by Jayant Raj Singh (<a href="https://codepen.io/bored_engineer">@bored_engineer</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
