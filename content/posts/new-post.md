@@ -1,7 +1,7 @@
 ---
-date: 2020-05-12T06:20:50+05:30
+date: 2020-05-12T00:50:50.000+00:00
 hero_image: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
-title: New Post
+title: New Post teset
 author: Jayant Raj Singh
 
 ---
