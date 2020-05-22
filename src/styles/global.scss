@@ -1,10 +1,19 @@
 @font-face {
   font-family: 'Work Sans';
-  src: url(../../static/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+  src: url('../../static/fonts/worksans-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../../static/fonts/worksans-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
+
 @font-face {
   font-family: 'Barlow Condensed';
-  src: url(../../static/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf);
+  src: url('../../static/fonts/barlowcondensed-bold-webfont.woff2') format('woff2'),
+       url('../../static/fonts/barlowcondensed-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 @import "variables";
 
