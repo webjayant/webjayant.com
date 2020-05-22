@@ -8,7 +8,7 @@ export default function BlogList() {
   const blogData = useBlogData()
   function renderBlogData() {
     return (
-      <div className={`BlogArea ${blogListStyles.blogMain}`}  style={{'min-height':'calc(100vh - 60px)'}}>
+      <div className={`BlogArea ${blogListStyles.blogMain}`}  style={{'minHeight':'calc(100vh - 60px)'}}>
         {blogData
           .filter(blog => blog.node.frontmatter.title !== "")
           .map(blog => {

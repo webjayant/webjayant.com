@@ -88,22 +88,17 @@
   align-items: center;
   padding: 1.5rem 0;
   width: 100%;
-  flex-direction: row-reverse;
+  justify-content: space-between;
   margin: 0 auto;
-  a {
+  a{
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: all .3s ease-in-out;
+    font-size: 18px;
+    align-items: center;
     span{
-      font-size: 16px;
-      margin-right: 10px;
-    }
-    svg {
-      width: 20px;
-    }
-    &:hover{
-      margin-right:-10px
+      margin:0 10px;
     }
   }
 }

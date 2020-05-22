@@ -1,0 +1,64 @@
+@import "../variables";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap');
+.maindiv{
+    height:calc(100vh - 50px);
+    background: $dark;
+    display: flex;
+    padding: 30px;
+}
+.text__display__area{
+    font-family: 'Barlow Condensed', sans-serif;
+    margin:auto;
+    color:#fff;
+    font-size: 50px;
+    span{
+        color:$light
+    }
+    .social__display__area{
+        a{
+            margin: 0 5px;
+            font-size: 30px;
+        }
+    }
+}
+.image__display__area{
+    position: relative;
+    margin:auto;
+    height:25vw;
+    width:25vw;
+    background: url(../../../content/images/me.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    white-space:pre;
+    &::after{
+        position: absolute;
+        content: '👻\00000aBOO!';
+        color:$dark;
+        height:100%;
+        width: 100%;
+        top:0;
+        left:0;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        opacity: 0;
+        font-size: 100px;
+        transition:opacity .2s ease-in-out;
+        @media screen and (max-width:1200px){
+            display: none;
+        }
+    }
+    &:hover::after{
+        opacity: 1;
+        transition:opacity .2s ease-in-out 3s;
+    }
+    @media screen and (max-width:500px){
+        margin:0 auto auto;
+        position: absolute;
+        height:100px;
+        width:100px;
+        left: 30px;
+    }
+}

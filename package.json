@@ -16,7 +16,13 @@
     "forestry-preview": "gatsby develop -p 8080 -H 0.0.0.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
     "gatsby": "^2.13.9",
+    "gatsby-cli": "^2.12.31",
     "gatsby-image": "^2.2.8",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sass": "^2.1.0",
