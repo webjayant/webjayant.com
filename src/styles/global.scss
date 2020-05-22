@@ -1,5 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@font-face {
+  font-family: 'Work Sans';
+  src: url(../../static/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Modak';
+  src: url(../../static/fonts/Modak/Modak-Regular.ttf);
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url(../../static/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf);
+}
 @import "variables";
 
 body {
