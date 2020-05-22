@@ -45,7 +45,7 @@ export default function Blog(props) {
   }
 
   return (
-    <Layout title={`WebJayant >>   ${data.frontmatter.title}`} description={data.frontmatter.excerpt}>
+    <Layout title={`WebJayant >> ${data.frontmatter.title}`} description={data.excerpt}>
       <article className={`BlogArea ${blogTemplateStyles.blog}`}>
         <div className={blogTemplateStyles.blog__info}>
           <h3>{data.frontmatter.date} / {data.frontmatter.author}</h3>
