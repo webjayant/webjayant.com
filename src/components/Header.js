@@ -48,7 +48,7 @@ export default function Header(props) {
         aria-label="main navigation"
       >
         <Link to="/">
-          <h1 ref = {el => (mainLogo = el)} className={headerStyles.main_logo}><span ref = {el => (logoEnglish = el)} className={headerStyles.english}>Web</span>जयन्त</h1>
+          <h1 ref = {el => (mainLogo = el)} className={headerStyles.main_logo}><span ref = {el => (logoEnglish = el)} className={headerStyles.english}>Web</span>Jayant</h1>
         </Link>
         <div ref={el => (leftLinks = el)} className={headerStyles.left__links}>   
           <Link to="/about">
