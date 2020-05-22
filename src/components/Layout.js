@@ -21,8 +21,8 @@ export default function Layout(props) {
     >
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{props.title || title}</title>
+        <meta name="description" content={props.description || description} />
       </Helmet>
       <Header page={props.page} title={title} />
       <div className={layoutStyles.content}>{props.children}</div>

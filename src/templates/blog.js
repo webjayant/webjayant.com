@@ -45,7 +45,7 @@ export default function Blog(props) {
   }
 
   return (
-    <Layout>
+    <Layout title={`WebJayant >>   ${data.frontmatter.title}`} description={data.frontmatter.excerpt}>
       <article className={`BlogArea ${blogTemplateStyles.blog}`}>
         <div className={blogTemplateStyles.blog__info}>
           <h3>{data.frontmatter.date} / {data.frontmatter.author}</h3>
@@ -100,6 +100,7 @@ export const getPostData = graphql`
         }
       }
       html
+      excerpt
     }
   }
 `
