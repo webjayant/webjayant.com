@@ -4,6 +4,9 @@ import Footer from "./Footer"
 import Helmet from "react-helmet"
 import useSiteMetadata from "../static_queries/useSiteMetadata"
 import layoutStyles from "../styles/components/layout.module.scss"
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false;
 
 export default function Layout(props) {
   const { title, description } = useSiteMetadata()
