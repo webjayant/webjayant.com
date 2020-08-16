@@ -63,13 +63,13 @@ export default function Blog(props) {
         ></div>
         <div className={blogTemplateStyles.blog__footer}>
           {(previousSlug !== '')
-          ?<Link to={`blog/${previousSlug.fields.slug}`} className={blogTemplateStyles.footer__previous}>
+          ?<Link to={`/blog/${previousSlug.fields.slug}`} className={blogTemplateStyles.footer__previous}>
             <FontAwesomeIcon icon={faAngleDoubleLeft} />
             <span>{previousSlug.frontmatter.title}</span>
           </Link>
           :<div></div>
           }
-          <Link to={`blog/${nextSlug.fields.slug}`} className={blogTemplateStyles.footer__next}>
+          <Link to={`/blog/${nextSlug.fields.slug}`} className={blogTemplateStyles.footer__next}>
             <span>{nextSlug.frontmatter.title}</span>
             <FontAwesomeIcon icon={faAngleDoubleRight} />
           </Link>
