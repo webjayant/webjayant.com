@@ -34,12 +34,12 @@ export default function About() {
                         <LandingImageArea style={aboutStyles.image__display__area}/>
                     </div>
                     <div className={aboutStyles.slider__display__area}>
-                        <ProgressBar title='html' width='90'/>
-                        <ProgressBar title='css' width='90'/>
-                        <ProgressBar title='javascript' width='90'/>
-                        <ProgressBar title='jquery' width='90'/>
-                        <ProgressBar title='vue' width='80'/>
-                        <ProgressBar title='react' width='80'/>
+                        <ProgressBar title='html' width='95'/>
+                        <ProgressBar title='css' width='95'/>
+                        <ProgressBar title='javascript' width='95'/>
+                        <ProgressBar title='jquery' width='95'/>
+                        <ProgressBar title='vue' width='90'/>
+                        <ProgressBar title='react' width='90'/>
                     </div>
                     {
                         (screenSize.width < 768)
