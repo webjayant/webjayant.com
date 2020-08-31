@@ -22,12 +22,18 @@ JAMstack gives power to front-end developers to experiment and expand.
 
 **JAMstack main features**
 
-1. **Performance**  
+1. **Performance**
+
    Since the site is build in JavaScript, it gives a major speed advantage when loaded from CDN.
+   
 2. **No Back-end Needed**
+
    Not having to manage your own back-end infrastructure saves time, effort, and cost.
+
 3. **Security**
+
    As we are using third party APIs developed by domain experts, security is never a concern
+
 4. **Ease of development**
 
    Using third party services to handle most of the initial setup, it gives us the freedom to focus on more important aspects.
