@@ -26,8 +26,13 @@ export default function Layout(props) {
         <title>{props.title || title}</title>
         <meta name="description" content={props.description || description} />
         <meta property="og:title" content={props.title || title} />
+        <meta property="og:type" content={props.type || 'website'} />
         <meta property="og:description" content={props.description || description} />
         <meta name="og:image" content={imageUrl} />
+        <meta property="twitter:title" content={props.title || title} />
+        <meta property="twitter:card" content='summary_large_image' />
+        <meta property="twitter:description" content={props.description || description} />
+        <meta name="twitter:image" content={imageUrl} />
       </Helmet>
       <Header page={props.page} title={title} />
       <div className={layoutStyles.content}>{props.children}</div>

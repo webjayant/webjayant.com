@@ -46,7 +46,7 @@ export default function Blog(props) {
   }
 
   return (
-    <Layout title={`WebJayant >> ${data.frontmatter.title}`} description={data.excerpt} image={data.frontmatter.hero_image.childImageSharp.fluid.src}>
+    <Layout title={`WebJayant >> ${data.frontmatter.title}`} description={data.excerpt} image={data.frontmatter.hero_image.childImageSharp.fluid.src} type='article'>
       <article className={`BlogArea ${blogTemplateStyles.blog}`}>
         <div className={blogTemplateStyles.blog__info}>
           <h3>{data.frontmatter.date} / {data.frontmatter.author}</h3>
