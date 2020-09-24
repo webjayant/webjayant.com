@@ -6,10 +6,12 @@ import useSiteMetadata from "../static_queries/useSiteMetadata"
 import layoutStyles from "../styles/components/layout.module.scss"
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
+import image from '../../static/me.jpg'
 config.autoAddCss = false;
 
 export default function Layout(props) {
   const { title, description } = useSiteMetadata()
+  const imageUrl = `https://webjayant.com${props.image || image}`
   return (
     <section
       className={`${layoutStyles.layout} ${
@@ -23,6 +25,9 @@ export default function Layout(props) {
         <html lang="en" />
         <title>{props.title || title}</title>
         <meta name="description" content={props.description || description} />
+        <meta property="og:title" content={props.title || title} />
+        <meta property="og:description" content={props.description || description} />
+        <meta name="og:image" content={imageUrl} />
       </Helmet>
       <Header page={props.page} title={title} />
       <div className={layoutStyles.content}>{props.children}</div>

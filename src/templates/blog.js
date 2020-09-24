@@ -11,6 +11,7 @@ import Img from 'gatsby-image'
 
 export default function Blog(props) {
   const data = props.data.markdownRemark
+  console.log(data)
   const allBlogData = useBlogData()
   const nextSlug = getNextSlug(data.fields.slug)
   const previousSlug = getPreviousSlug(data.fields.slug)
@@ -45,7 +46,7 @@ export default function Blog(props) {
   }
 
   return (
-    <Layout title={`WebJayant >> ${data.frontmatter.title}`} description={data.excerpt}>
+    <Layout title={`WebJayant >> ${data.frontmatter.title}`} description={data.excerpt} image={data.frontmatter.hero_image.childImageSharp.fluid.src}>
       <article className={`BlogArea ${blogTemplateStyles.blog}`}>
         <div className={blogTemplateStyles.blog__info}>
           <h3>{data.frontmatter.date} / {data.frontmatter.author}</h3>
