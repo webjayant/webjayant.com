@@ -18,6 +18,10 @@ fields:
       path: authors
   label: author
   description: Enter author of post
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: date
   type: datetime
   label: date
