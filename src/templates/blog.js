@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight, faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons'
 //this component handles the blur img & fade-ins
 import Img from 'gatsby-image'
+import { _numExp } from "gsap/gsap-core"
 
 export default function Blog(props) {
   const data = props.data.markdownRemark
@@ -27,7 +28,7 @@ export default function Blog(props) {
     if(nextSlug !== undefined && nextSlug !== '') {
       return nextSlug
     } else {
-      return allSlugs[0]
+      return ''
     }
   }
   function getPreviousSlug(slug) {
@@ -70,10 +71,13 @@ export default function Blog(props) {
           </Link>
           :<div></div>
           }
-          <Link to={`/blog/${nextSlug.fields.slug}`} className={blogTemplateStyles.footer__next}>
+          {(nextSlug !== '')
+          ?<Link to={`/blog/${nextSlug.fields.slug}`} className={blogTemplateStyles.footer__next}>
             <span>{nextSlug.frontmatter.title}</span>
             <FontAwesomeIcon icon={faAngleDoubleRight} />
           </Link>
+          :<div></div>
+          }
         </div>
       </article>
     </Layout>
