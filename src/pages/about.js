@@ -44,7 +44,7 @@ export default function About() {
                     {
                         (screenSize.width < 768)
                         ?(<div className={aboutStyles.download__resume}>
-                            <a href={Resume} download target="_blank">Download My Resume</a>
+                            <a href={Resume} download target="_blank" rel="noreferrer">Download My Resume</a>
                         </div>)
                         :''
                     }
@@ -52,7 +52,7 @@ export default function About() {
                 {
                     (screenSize.width > 768)
                     ?(<div className={aboutStyles.right__display}>
-                        <iframe className={aboutStyles.iframe} src={Resume} frameborder="0"></iframe>
+                        <iframe className={aboutStyles.iframe} src={Resume} frameborder="0" title="resume"></iframe>
                     </div>)
                     :''
                 }

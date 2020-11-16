@@ -8,7 +8,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleRight, faAngleDoubleLeft} from '@fortawesome/free-solid-svg-icons'
 //this component handles the blur img & fade-ins
 import Img from 'gatsby-image'
-import { _numExp } from "gsap/gsap-core"
 
 export default function Blog(props) {
   const data = props.data.markdownRemark
