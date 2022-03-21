@@ -1,10 +1,10 @@
 {
-  "name": "foresry-starter-blog-gatsby",
+  "name": "webjayant",
   "private": true,
-  "description": "A simple starter blog to get up and developing quickly with Forestry & Gatsby",
+  "description": "Personal portfolio and blog using gatsby and forestry.io",
   "license": "MIT",
   "version": "0.1.0",
-  "author": "kendall strautman",
+  "author": "Jayant Raj Singh",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -o",
@@ -52,6 +52,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/webjayant/forestry-gastby"
+    "url": "https://github.com/webjayant/webjayant.com"
   }
 }

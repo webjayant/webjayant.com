@@ -11,7 +11,7 @@ config.autoAddCss = false;
 
 export default function Layout(props) {
   const { title, description } = useSiteMetadata()
-  const imageUrl = `https://webjayant.com${props.image || image}`
+  const imageUrl = `https://webjayant.me${props.image || image}`
   return (
     <section
       className={`${layoutStyles.layout} ${
