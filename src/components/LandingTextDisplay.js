@@ -9,8 +9,8 @@ export default function LandingTextDisplay(props) {
             <div>I'm <span>Jayant</span>,</div>
             <div>Web Developer.</div>
             <div className={landingStyles.social__display__area}>
-                <a href="https://www.facebook.com/webguyjayant" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-                <a href="https://www.linkedin.com/in/webguyjayant/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                <a href="https://www.facebook.com/webjayant" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
+                <a href="https://www.linkedin.com/in/webjayant/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
                 <a href="https://www.instagram.com/webjayant/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                 <a href="https://twitter.com/webjayant" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
                 <a href="https://stackoverflow.com/users/6890449/webjayant" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faStackOverflow} /></a>
