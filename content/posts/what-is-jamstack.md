@@ -1,13 +1,13 @@
 ---
-date: 2020-08-31T18:03:21+05:30
-hero_image: "/content/images/jamstack-delivers-v1.jpeg"
+date: 2020-08-31T12:33:21.000Z
+hero_image: /content/images/jamstack-delivers-v1.jpeg
 title: What is JAMstack?
-author: Jayant Raj Singh
-
+author: content/data/authors/jayant.yaml
 ---
+
 **What is JAMstack and why should I care?**
 
-JAMstack is a modern web-development architecture that contains strictly client-side JavaScript, reusable APIs, and prebuilt markup. With JAMstack, developers can develop apps only using front-end technologies without setting up servers and back-end.  
+JAMstack is a modern web-development architecture that contains strictly client-side JavaScript, reusable APIs, and prebuilt markup. With JAMstack, developers can develop apps only using front-end technologies without setting up servers and back-end.\
 Thanks to recent development of serverless platforms such as firebase, Google Cloud Functions, Amazon Lambda Functions which enables API integrations from front-end itself.
 
 The best thing about JAMstack in my opinion is the that you don't have to pay any initial amount to get started.
@@ -25,15 +25,12 @@ JAMstack gives power to front-end developers to experiment and expand.
 1. **Performance**
 
    Since the site is build in JavaScript, it gives a major speed advantage when loaded from CDN.
-   
 2. **No Back-end Needed**
 
    Not having to manage your own back-end infrastructure saves time, effort, and cost.
-
 3. **Security**
 
    As we are using third party APIs developed by domain experts, security is never a concern
-
 4. **Ease of development**
 
    Using third party services to handle most of the initial setup, it gives us the freedom to focus on more important aspects.

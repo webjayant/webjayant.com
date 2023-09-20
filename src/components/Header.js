@@ -64,7 +64,10 @@ export default function Header(props) {
           </svg>
           <h1 ref = {el => (mainLogo = el)} className={headerStyles.main_logo}><span ref = {el => (logoEnglish = el)} className={headerStyles.english}>Web</span>Jayant</h1>
         </Link>
-        <div ref={el => (leftLinks = el)} className={headerStyles.left__links}>   
+        <div ref={el => (leftLinks = el)} className={headerStyles.left__links}>
+          <Link to="https://jsnake.webjayant.app">
+            j~Snake
+          </Link>   
           <Link to="/about">
             About Me
           </Link>

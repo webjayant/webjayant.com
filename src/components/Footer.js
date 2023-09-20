@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
             <footer className={footerStyles.footer}>
                 <p>
-                    &copy; webjayant, 2020
+                    &copy; webjayant, 2023
                 </p>
                 <div className={footerStyles.social__display__area}>
                     <a href="https://www.facebook.com/webguyjayant" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>

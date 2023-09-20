@@ -49,7 +49,7 @@ export default function Blog(props) {
     <Layout title={`WebJayant >> ${data.frontmatter.title}`} description={data.excerpt} image={data.frontmatter.hero_image.childImageSharp.fluid.src} type='article'>
       <article className={`BlogArea ${blogTemplateStyles.blog}`} data-clarity-region="article">
         <div className={blogTemplateStyles.blog__info}>
-          <h3>{data.frontmatter.date} / {data.frontmatter.author}</h3>
+          <h3>{data.frontmatter.date}</h3>
           <h1>{data.frontmatter.title}</h1>
         </div>
         <figure className={blogTemplateStyles.blog__hero}>
@@ -93,7 +93,6 @@ export const getPostData = graphql`
       }
       frontmatter {
         title
-        author
         date(formatString: "MMMM Do, YYYY")
         hero_image {
           childImageSharp {

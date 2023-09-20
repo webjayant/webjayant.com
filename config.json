@@ -1,6 +1,6 @@
 {
   "title": "webjayant",
   "description": "Personal portfolio and blog using gatsby and forestry.io",
-  "repository_url": "https://github.com/webjayant/webjayant.com"
-
+  "repository_url": "https://github.com/webjayant/webjayant.com",
+  "_template": "site_info"
 }
