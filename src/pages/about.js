@@ -4,7 +4,7 @@ import LandingTextDisplay from '../components/LandingTextDisplay'
 import LandingImageArea from '../components/LandingImageArea'
 import aboutStyles from "../styles/pages/about.module.scss"
 import ProgressBar from "../components/ProgressBar"
-import Resume from "../../static/pdf/Jayant_Raj_Singh_Resume.pdf"
+import Resume from "../../static/pdf/Jayant_Raj_Singh_Resume_N.pdf"
 
 export default function About() {
     const [hasRan, setHasRan] = useState(false)
@@ -38,8 +38,9 @@ export default function About() {
                         <ProgressBar title='css' width='95'/>
                         <ProgressBar title='javascript' width='95'/>
                         <ProgressBar title='jquery' width='95'/>
-                        <ProgressBar title='vue' width='90'/>
-                        <ProgressBar title='react' width='90'/>
+                        <ProgressBar title='react' width='95'/>
+                        <ProgressBar title='next' width='90'/>
+                        <ProgressBar title='typescript' width='80'/>
                     </div>
                     {
                         (screenSize.width < 768)
